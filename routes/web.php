@@ -19,9 +19,15 @@ Route::get('/books/edit/{id}', 'BooksController@edit');
 
 Route::patch('/books/{id}', 'BooksController@update');
 
+Route::get('/add', 'BooksController@add');
+
+Route::post('/add', 'BooksController@add');
+
 Route::get('/authors', 'AuthorsController@index');
 
 Route::get('/authors/{id}', 'AuthorsController@authorbooks');
+
+Route::get('/books/delete/{id}', 'BooksController@delete');
 
 /*
 Route::get('/edit', function () {

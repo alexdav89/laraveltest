@@ -14,7 +14,8 @@
 		      <a class="navbar-brand" href="{{url('/')}}">Test</a>
 		    </div>
 		    <ul class="nav navbar-nav">
-		      <li class="active"><a href="{{url('/')}}">View books</a></li>
+		      <li><a href="{{url('/')}}">View books</a></li>
+		      <li><a href="{{url('/add')}}">Add book</a></li>
 		      <li><a href="{{url('/authors')}}">View Authors</a></li>
 		    </ul>
 		  </div>
